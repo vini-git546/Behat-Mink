@@ -1,0 +1,10 @@
+default:
+  paths:
+
+    bootstrap:  '%behat.paths.features%/bootstrap'
+  extensions:
+    Behat\MinkExtension\Extension:
+      base_url: http://drupal.org
+      browser_name: firefox
+      goutte: ~
+      selenium2: ~
