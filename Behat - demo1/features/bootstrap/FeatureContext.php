@@ -38,10 +38,11 @@ class FeatureContext extends MinkContext
     /**
      * @Then /^I should see "([^"]*)"$/
      */
-   // public function iShouldSee($val)
-    //{
-     //   $this->assertPageContainsText('Sorry, 180.211.112.67 has been banned',$val);
-  //  }
-
-
+    
+    /*
+    public function iShouldSee($val)
+    {
+         $this->assertPageContainsText('Sorry, 180.211.112.67 has been banned',$val);
+    }
+    */
 }
